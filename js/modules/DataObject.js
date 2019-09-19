@@ -1,11 +1,30 @@
 export default {
-    name: "Gleb",
-    role: "Developer",
-    height: "3ft",
-    weight: 175,
-    hairColor: "blonde",
 
-    breathe(){
-        console.log("Breathing");
+    Trevor: {
+        name: "Trevor",
+        role: "professor",
+        bio: "Anime",
+        avatar: "olaf.jpeg"
+    },
+
+    Justin: {
+        name: "Justin",
+        role: "professor",
+        bio: "Anime",
+        avatar: "justin.jpeg"
+    },
+
+    Joe: {
+        name: "Joe",
+        role: "professor",
+        bio: "Anime",
+        avatar: "pooh.jpeg"
+    },
+
+    Jarrod: {
+        name: "Jarrod",
+        role: "professor",
+        bio: "Anime",
+        avatar: "zoolander.jpg"
     }
 }

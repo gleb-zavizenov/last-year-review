@@ -1,6 +1,7 @@
 //imports go first -> grab _vars variables
 @import '_vars';
 @import 'modules/navbar';
+@import 'modules/users';
 
 body{
     background-color: $body-bg;
