@@ -1,12 +1,17 @@
+#section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .bio-wrapper{
     display:flex;
     flex-direction: column;
     align-items: center;
-    width:300px;
 }
 
 .u-avatar{
-    width:100%;
+    width:350px;
 }
 
 .u-name{
@@ -27,4 +32,27 @@
 
 .u-bio{
     margin-bottom: 40px;
+    width:330px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size:16px;
+    line-height: 18px;
+}
+
+button{
+    width:130px;
+    height:40px;
+    margin-right:20px;
+    background:none;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:300;
+    border: 2px solid gold;
+    color: gold;
+    transition: background-color 0.7s ease-in-out;
+}
+
+button:hover{
+    background-color:gold;
+    color:#fcfcfc;
 }
